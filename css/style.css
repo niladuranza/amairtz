@@ -1,0 +1,77 @@
+#logo {
+    width: 200px;
+
+}
+
+@font-face {
+  src: url(../fonts/IHateComicSans.ttf);
+  font-family: ihatecomicsans;  
+}
+
+#aboutme {
+    background-image: url(../images/text_background_yellow.png);
+    background-repeat: no-repeat;
+}
+
+#illustrations {
+    background-image: url(../images/text_background_purple.png);
+    background-repeat: no-repeat;
+}
+
+#animations {
+    background-image: url(../images/text_background_blue.png);
+    background-repeat: no-repeat;
+}
+
+#characterdesign {
+    background-image: url(../images/text_background_pink.png);
+    background-repeat: no-repeat;
+}
+
+#comics {
+    background-image: url(../images/text_background_green.png);
+    background-repeat: no-repeat;
+}
+
+.subheaderlinks a {
+    text-decoration: none; color: black;
+    margin: bottom;
+    font-family: ihatecomicsans;
+    font-size: 25px;
+}
+
+.insertillustration {
+    float: right;
+    position: relative;
+}
+
+.about {
+    width: 17%;
+    height: auto;
+}
+
+.illus {
+    width: 17%;
+    height: auto;
+}
+
+.anim {
+    width: 17%;
+    height: auto;
+}
+
+.charac {
+    width: 17%;
+    height: auto;
+}
+
+.comi {
+    width: 17%;
+    height: auto;
+}
+
+#socialmedia {
+    background-image: url(../images/social_media_background.png);
+    background-repeat: no-repeat;
+    font-family: ihatecomicsans;
+}
