@@ -1,5 +1,11 @@
+#logoo
+    
+
+
 #logo {
     width: 200px;
+    margin-top: 10%;
+    margin-left: 8%;
 
 }
 
@@ -40,34 +46,38 @@
     font-size: 25px;
 }
 
-.insertillustration {
-    float: right;
-    position: relative;
+#insertillustration {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto;
+    height: 200vh;
+    
 }
 
-.about {
-    width: 17%;
+#about {
+    background-image: url(../images/rectangles_template_png.png);
+    background-repeat: no-repeat;
     height: auto;
 }
 
-.illus {
-    width: 17%;
-    height: auto;
+#illus {
+    background-image: url(../images/rectangles_template_png.png);
+    background-repeat: no-repeat;
 }
 
-.anim {
-    width: 17%;
-    height: auto;
+#anim {
+    background-image: url(../images/rectangles_template_png.png);
+    background-repeat: no-repeat;
 }
 
-.charac {
-    width: 17%;
-    height: auto;
+#charac {
+    background-image: url(../images/rectangles_template_png.png);
+    background-repeat: no-repeat;
 }
 
-.comi {
-    width: 17%;
-    height: auto;
+#comi {
+    background-image: url(../images/rectangles_template_png.png);
+    background-repeat: no-repeat;
 }
 
 #socialmedia {
