@@ -6,15 +6,20 @@
 #logo {
     width: 195px;
     margin-top: 35%;
-    margin-left: 20%;
+    margin-left: 33%;
 }
 
-#insertillustration {
+#boxmodel {
     display: grid;
+    /* grid-template-columns: 20% 15% 15% 15% 15% 20%; */
     grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: 40% 40% 20%;
-    height: 95vh;
+    grid-template-rows: 35% 65%;
+    height: 100vh;
 }
+
+
+
+
 
 @font-face {
   src: url(../fonts/IHateComicSans.ttf);
@@ -25,102 +30,145 @@
     background-image: url(../images/text_background_yellow.png);
     background-repeat: no-repeat;
     padding-top: 10px;
-    background-size: 120px;
+    background-size: 110px;
+    background-position:center;
+    padding-top: 5px;
 }
 
 #illustrations {
     background-image: url(../images/text_background_purple.png);
     background-repeat: no-repeat;
     padding-top: 10px;
-    background-size: 120px;
+    background-size: 125px;
+    background-position:center;
 }
 
 #animations {
     background-image: url(../images/text_background_blue.png);
     background-repeat: no-repeat;
     padding-top: 10px;
-    background-size: 120px;
+    background-size: 100px;
+    background-position:center;
 }
 
 #characterdesign {
     background-image: url(../images/text_background_pink.png);
     background-repeat: no-repeat;
     padding-top: 13px;
-    background-size: 160px;
+    background-size: 140px;
+    background-position:center;
 }
 
 #comics {
     background-image: url(../images/text_background_green.png);
     background-repeat: no-repeat;
     padding-top: 15px;
-    background-size: 80px;
+    background-size: 70px;
+    background-position:center;
+    padding-top: 5px;
 }
 
 .subheaderlinks a {
     text-decoration: none; color: black;
-    margin: bottom;
+    /* margin: bottom; */
     font-family: ihatecomicsans;
     font-size: 22px;
     text-align: center;
+    line-height: 40px;
+    
 }
 
 .subheaderlinks {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    margin-left: 15%;
+    padding-top: 80px;
 }
 
+
+
+
+
+
 #about {
-    background-image: url(../images/rectangles_template_png.png);
+    background-image: url(../images/aboutme_illus.png);
     background-repeat: no-repeat;
-    height: auto;
+    /* background-size: cover; */
+    object-fit: cover;
+    height: 100%;
     width: auto;
     grid-column: 2 / span 1;
     grid-row: 1 / span 2;
-    margin-top: 30%;
 }
 
+#about:hover {
+    background-image: url(../images/aboutme_hover.png);
+    object-fit: cover;
+} 
+
 #illus {
-    background-image: url(../images/rectangles_template_png.png);
+    background-image: url(../images/illustration_illus.png);
     background-repeat: no-repeat;
+    /* background-size: cover; */
+    object-fit: cover;
+    height: 100%;
+    width: auto;
     grid-column: 3 / span 1;
     grid-row: 1 / span 2;
-    margin-top: 30%;
+    /* margin-top: 7%; */ 
+}
+
+#illus:hover {
+    background-image: url(../images/illustrations_hover.png);
+    object-fit: cover;
 }
 
 #anim {
-    background-image: url(../images/rectangles_template_png.png);
+    background-image: url(../images/animations_illus.png);
     background-repeat: no-repeat;
+    /* background-size: cover; */
+    object-fit: cover;
+    height: 100%;
+    max-width: auto;
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
-    margin-top: 30%;
+    /* margin-top: 7%; */
+}
+
+#anim:hover {
+    background-image: url(../images/animations_hover.png);
+    object-fit: cover;
 }
 
 #charac {
-    background-image: url(../images/rectangles_template_png.png);
+    background-image: url(../images/characterdesign_illus.png);
     background-repeat: no-repeat;
+    /* background-size: cover; */
+    object-fit: cover;
+    height: 100%;
+    max-width: auto;
     grid-column: 5 / span 1;
     grid-row: 1 / span 2;
-    margin-top: 30%;
+    /* margin-top: 7%; */
+}
+
+#charac:hover {
+    background-image: url(../images/characd_hover.png);
+    object-fit: cover;
 }
 
 #comi {
-    background-image: url(../images/rectangles_template_png.png);
+    background-image: url(../images/comics_illus.png);
     background-repeat: no-repeat;
+    /* background-size: cover; */
+    object-fit: cover;
+    height: 100%;
+    max-width: auto;
     grid-column: 6 / span 1;
     grid-row: 1 / span 2;
-    margin-top: 30%;
+    /* margin-top: 7%; */
 }
 
-#socialmedia {
-    background-image: url(../images/social_media_background.png);
-    background-repeat: no-repeat;
-    font-family: ihatecomicsans;
-    background-size: contain;
-    height: 100px;
-    width: auto;
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-    margin-left: 60px;
-    margin-top: 65px;
+#comi:hover {
+    background-image: url(../images/comics_hover.png);
+    object-fit: cover;
 }
