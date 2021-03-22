@@ -6,8 +6,8 @@ html,body{
 
 #boxmodel {
     display: grid;
-    grid-template-columns: 25vw 40vw 35vw ;
-    grid-template-rows: 35vh 65vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 35vh 32.5vh 32.5vh;
     height: 100vh;
 }
 
@@ -30,11 +30,6 @@ html,body{
     font-family: ihatecomicsans;  
   }
   
-@font-face {
-    src: url(../fonts/Montserrat-Light.ttf);
-    font-family: montserrat;
-}
-
   #aboutme {
       background-image: url(../images/text_background_yellow.png);
       background-repeat: no-repeat;
@@ -91,50 +86,17 @@ html,body{
       grid-row: 2 / span 1;
       padding-top: 80px;
   }
-  
-    #introduction {
-        grid-column: 2;
-        grid-row: 1 / span 2;
-    }
-  
-    #centerImage{
-      padding-top: 50px;
-      max-width:50vw;
-    }
-  
-     #description {
-      grid-column: 3 ;
-      grid-row: 1 / span 2;
-      padding:5%;
-    } 
-
-    #paragraph {
-        grid-column: 3 / span 1;
-        grid-row: 1 / span 2;
-        padding-top: 25%;
-        padding-left: 30%;
-        text-align: center;
-    }
 
 
-    .font1 {
-        text-decoration: none; color: palevioletred;
-        font-family: ihatecomicsans;
-        font-size: 60px;
-    }
+  /* --------character design----------- */
 
-    .font2 {
-        text-decoration: none; color: black;
-        font-family: montserrat;
-        font-size: 22px;
-    }
 
-    .font3 {
-        color: mediumslateblue;
-        font-family: montserrat;
-        font-size: 22px;
-    }
+  .characterdesign {
+      display: block; 
+  }
 
-    #paragraph a {
-        text-decoration: none;
-    }
+  #reiiki {
+      background-image: url(images/reiiki.png);
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 1;
+  }

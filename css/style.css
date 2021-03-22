@@ -1,3 +1,13 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+h1,p{
+    margin:0 0 1em
+}
+
+
 #logoo {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
@@ -12,7 +22,7 @@
 #boxmodel {
     display: grid;
     grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: 35% 65%;
+    grid-template-rows: 35vh 65vh;
     height: 100vh;
 }
 
@@ -87,12 +97,15 @@
 
 /* these are the illustrations */
 
+.illustrations {
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* object-fit: cover; */
+    max-height: 100vh;
+}
+
 #about {
     background-image: url(../images/aboutme_illus.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 100vh;
-    width: auto;
     grid-column: 2 / span 1;
     grid-row: 1 / span 2;
 }
@@ -100,14 +113,11 @@
 #about:hover {
     background-image: url(../images/aboutme_hover.png);
     object-fit: cover;
+    height: 100vh;
 } 
 
 #illus {
     background-image: url(../images/illustration_illus.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 100vh;
-    width: auto;
     grid-column: 3 / span 1;
     grid-row: 1 / span 2;
 }
@@ -115,14 +125,11 @@
 #illus:hover {
     background-image: url(../images/illustrations_hover.png);
     object-fit: cover;
+    height: 100vh;
 }
 
 #anim {
     background-image: url(../images/animations_illus.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 100vh;
-    max-width: auto;
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
 }
@@ -130,34 +137,29 @@
 #anim:hover {
     background-image: url(../images/animations_hover.png);
     object-fit: cover;
+    height: 100vh;
 }
 
 #charac {
     background-image: url(../images/characterdesign_illus.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 100vh;
-    max-width: auto;
-    grid-column: 5 / span 1;
+    grid-column: 5;
     grid-row: 1 / span 2;
 }
 
 #charac:hover {
     background-image: url(../images/characd_hover.png);
-    object-fit: cover;
+    object-fit: contain;
+    height: 100vh;
 }
 
 #comi {
     background-image: url(../images/comics_illus.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 100vh;
-    max-width: auto;
-    grid-column: 6 / span 1;
+    grid-column: 6;
     grid-row: 1 / span 2;
 }
 
 #comi:hover {
     background-image: url(../images/comics_hover.png);
     object-fit: cover;
+    height: 100vh;
 }
