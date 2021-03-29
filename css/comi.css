@@ -1,0 +1,143 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+
+#boxmodel {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 35vh 65vh;
+    height: 100vh;
+}
+
+#logoo {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+    
+#logo {
+    width: 195px;
+    margin-top: 35%;
+    margin-left: 33%;
+}
+
+
+@font-face {
+    src: url(../fonts/IHateComicSans.ttf);
+    font-family: ihatecomicsans;  
+  }
+  
+  #aboutme {
+      background-image: url(../images/text_background_yellow.png);
+      background-repeat: no-repeat;
+      padding-top: 10px;
+      background-size: 110px;
+      background-position:center;
+      padding-top: 5px;
+  }
+  
+  #illustrations {
+      background-image: url(../images/text_background_purple.png);
+      background-repeat: no-repeat;
+      padding-top: 10px;
+      background-size: 125px;
+      background-position:center;
+  }
+  
+  #animations {
+      background-image: url(../images/text_background_blue.png);
+      background-repeat: no-repeat;
+      padding-top: 10px;
+      background-size: 100px;
+      background-position:center;
+  }
+  
+  #characterdesign {
+      background-image: url(../images/text_background_pink.png);
+      background-repeat: no-repeat;
+      padding-top: 13px;
+      background-size: 140px;
+      background-position:center;
+  }
+  
+  #comics {
+      background-image: url(../images/text_background_green.png);
+      background-repeat: no-repeat;
+      padding-top: 15px;
+      background-size: 70px;
+      background-position:center;
+      padding-top: 5px;
+  }
+  
+  .subheaderlinks a {
+      text-decoration: none; color: black;
+      font-family: ihatecomicsans;
+      font-size: 22px;
+      text-align: center;
+      line-height: 40px;
+      
+  }
+  
+  .subheaderlinks {
+      grid-column: 1 / span 1;
+      grid-row: 2 / span 1;
+      padding-top: 80px;
+  }
+
+
+  /* ---illustrations below--- */
+
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 50px;
+  }
+
+  .column {
+      flex: 100%;
+      max-width: 100%;
+      margin-right: 20px;
+      overflow-x: hidden;
+  }
+
+  .column img {
+      vertical-align: middle;
+      width: 100%;
+  }
+
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+    margin-right: 20px;
+    overflow-x: hidden;
+  }
+
+  .column2 img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .column3 {
+    flex: 100%;
+    max-width: 100%;
+    margin-right: 20px;
+    overflow-x: hidden;
+  }
+
+  .column3 img {
+    vertical-align: middle;
+    width: 100%;
+}
