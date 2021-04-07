@@ -97,38 +97,16 @@ html,body{
 
 /* animations go here */
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
+ .one {
+     margin-top: 60px;
+     margin-left: 30px;
+ }
+
+ .two {
+    margin-top: 60px;
 }
 
-.column {
-    flex: 100%;
-    max-width: 100%;
-    margin-right: 20px;
-    overflow-x: hidden;
-}
-
-.column img {
-    vertical-align: middle;
-    width: 100%;
-}
-
-.row2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-}
-
-.column2 {
-   flex: 100%;
-   max-width: 100%;
-   margin-right: 20px;
-   overflow-x: hidden;
-}
-
-.column2 img {
-   vertical-align: middle;
-   width: 100%;
+.three {
+    margin-top: 80px;
+    margin-left: 30px;
 }
