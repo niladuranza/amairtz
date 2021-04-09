@@ -9,6 +9,7 @@ html,body{
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-rows: 35vh 65vh;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #logoo {
@@ -88,7 +89,7 @@ html,body{
 
   /* ---illustrations below--- */
 
-  .row {
+  /* .row {
       display: flex;
       flex-wrap: wrap;
       padding-top: 50px;
@@ -140,4 +141,130 @@ html,body{
   .column3 img {
     vertical-align: middle;
     width: 100%;
+} */
+
+
+
+
+/* haikyuu */
+.one {
+    margin-top: 60px;
+    margin-left: 30px;
 }
+
+/* happiness aka kajemac */
+.two {
+    margin-top: 60px;
+}
+
+/* The little traveler */
+.three {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+/* space traveler */
+.four {
+    margin-top: 370px;
+    margin-left: 30px;
+}
+
+/* sugarrush */
+/* .five {
+    margin-top: 5px;
+} */
+
+.six {
+    margin-top: 335px;
+    margin-left: 20px;
+}
+
+
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: hsla(338, 83%, 95%, 0.9); /* Pink w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    max-height: 800px;
+    object-fit: contain;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f38ec6;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+    }
