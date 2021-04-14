@@ -10,7 +10,8 @@ console.log(event.srcElement.id);
 myImg = document.getElementById(event.srcElement.id)
 modal.style.display = "block";
 modalImg.src = myImg.src;
-captionText.innerHTML = this.alt;
+captionText.innerHTML = myImg.alt;
+// captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
