@@ -89,7 +89,10 @@ h1,p{
 .subheaderlinks {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
 }
 
 
