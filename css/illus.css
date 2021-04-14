@@ -177,20 +177,34 @@ html,body{
     margin-top: 5px;
 } */
 
+/* landscape */
 .six {
     margin-top: 335px;
     margin-left: 20px;
 }
 
+/* clancy */
+.seven {
+  grid-column: 2 / span 1;
+  margin-left: 30px;
+  margin-top: 70px;
+}
 
+/* Kageyama */
+.eight {
+  /* grid-column: 3 / span 1; */
+  /* margin-top: 50px; */
+  /* padding: 0; margin: 0; */
+  display: block;
+}
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
   }
   
-  #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover {opacity: 0.7;}
+  #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myImg7:hover, #myImg8:hover {opacity: 0.7;}
   
   /* The Modal (background) */
   .modal {
